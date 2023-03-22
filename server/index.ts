@@ -5,6 +5,6 @@ dotenv.config();
 
 const {PORT} = process.env;
 
-app.listen(PORT, async () => {
-    console.log(`Server is listening on PORT:${PORT }`)
+app.listen(PORT, async ():Promise<void> => {
+    console.log(`Server is listening on PORT:${PORT}`)
 });

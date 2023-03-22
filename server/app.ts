@@ -1,7 +1,6 @@
 import express from 'express';
 import FreeAccess from './routes/FreeAccess';
 import cors from 'cors';
-
 const app = express();
 
 
